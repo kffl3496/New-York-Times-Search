@@ -1,0 +1,128 @@
+body { 
+    background-color: white;
+}
+
+
+.navbar { 
+    width: 100%;
+    background-color: navy;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#searchPH3 { 
+    margin-top: 0px;
+}
+
+
+#searchParameters {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+    padding-top: 0px;
+    border: 2px solid lightgray;
+}
+
+#searchParameterTitle { 
+    height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+#topArticles { 
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+
+#searchTermTitle { 
+    margin-left: 8px;
+}
+
+#searchTerm { 
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#searchTermBox { 
+    width: 96%;
+    margin-left: 8px;
+}
+
+#recordsTitle { 
+    margin-left: 17px;
+}
+
+#numRecords { 
+    text-align: left;
+    margin-top: 15px;
+}
+
+#recordsDrop { 
+    width: 95.5%;
+    margin-left: 17px;
+}
+
+#startYrTitle { 
+    text-align: left;
+    margin-top: 15px;
+}
+
+#startYrBox { 
+    width: 95%;
+    margin-left: 17px;
+}
+
+#startYrTitleText {
+    margin-left: 17px;
+}
+
+#endYrTitleText { 
+    margin-left: 17px;
+}
+
+#endYrTitle { 
+    text-align: left;
+    margin-top: 15px;
+}
+
+#endYrBox { 
+    width: 95%;
+    margin-left: 17px;
+}
+
+
+.btn { 
+   float: left;
+   margin-left: 10px; 
+   margin-top: 5px;
+}
+
+#topArticles { 
+    
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+    padding-top: 0px;
+    border: 2px solid lightgray;
+}
+
+#topArticlesTitle { 
+    height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+#topAH3 { 
+    margin-top: 0px;
+}

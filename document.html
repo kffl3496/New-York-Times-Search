@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container" id="container">
+        <nav class="navbar"style="height: 100px;">
+          <a style = "text-align: center; color: white; font-size: xx-large; " class = "topBar"><i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search</a>
+        </nav>
+      </div>
+    <div class="jumbotron" id=searchParameters>
+    <div id= searchParameterTitle class="flex-container">
+        <h3 id = "searchPH3">Search Parameters</h3>
+    </div>
+        <div id= "searchTerm" class="form-group">
+            <label id = "searchTermTitle" for="usr">Search Term:</label>
+            <input id = "searchTermBox" type="text" class="form-control" id="usr">
+          </div>
+
+          <div id= "numRecords" class="form-group">
+            <label id = "recordsTitle" for="sel1">Number of Records to Retrieve</label>
+            <select class="form-control" id="recordsDrop">
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+            </select>
+          </div>
+
+          <div id= "startYrTitle" class="form-group">
+            <label id = "startYrTitleText" for="usr">Start Year (Optional): </label>
+            <input type="text" class="form-control" id="startYrBox">
+          </div>
+
+          <div id= "endYrTitle" class="form-group">
+            <label id = "endYrTitleText" for="usr">End Year (Optional):</label>
+            <input type="text" class="form-control" id="endYrBox">
+          </div>
+          <button type="button" id= "searchBtn" class="btn">Search</button>
+          <button type="button" id= "clearBtn" class="btn">Clear</button>
+    </div>
+
+    <div class="jumbotron" id="topArticles">
+        <div id= topArticlesTitle class="flex-container">
+            <h3 id = "topAH3"><i class="fa fa-calendar" aria-hidden="true"></i> Top Articles</h3>
+        </div>
+
+    </div>
+    
+    <h4 style="text-align: center;">Made with CSS♡</h4>
+    <script src = "script.js"></script>
+</body>
+</html>
